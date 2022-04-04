@@ -6,7 +6,7 @@ import joblib
 st.title('Meningioma perfect prediction')
 
 # Load trained model.
-m = joblib.load('./sample_RSF_14feats.pkl')
+m = joblib.load('sample_RSF_14feats.pkl')
 
 # Load input features.
 Age = st.sidebar.slider('Age', 10, 100)
