@@ -63,6 +63,8 @@ sample_test = pd.DataFrame({'Age':[Age], 'Sex':[Sex], 'Pathology':[Pathology],
 
 preds = m.predict_survival_function(sample_test)[0].y
 
+
+st.write("Let's test a sample prediction! \n")
 st.write(str(preds))
 
 #'Age', 'Sex', 'Pathology', 'Metastasis_extent', 'ALC_pre_IO',
