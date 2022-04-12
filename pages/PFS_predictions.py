@@ -37,7 +37,7 @@ def app():
     #st.subheader('Meningioma perfect prediction')
 
     # Load trained model.
-    m = joblib.load('../output/sample_RSF_14feats.pkl')
+    m = joblib.load('sample_RSF_14feats.pkl')
 
     # Load input features.
     st.sidebar.title('Insert patient infos!', )
