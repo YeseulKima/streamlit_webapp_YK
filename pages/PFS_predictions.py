@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import joblib
 
-from st_btn_select import st_btn_select
 
 def app():
     sample_test = None
